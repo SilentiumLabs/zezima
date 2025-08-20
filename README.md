@@ -1,52 +1,22 @@
-# 👾 Zezima | Offensive Security Researcher
+# Silentium Labs
 
-### 💥 I break things to make the internet safer.
+Offensive Security Researcher focused on vulnerability discovery, penetration testing, and responsible disclosure.  
+Developer of the **Arcana Framework** — a multi-module toolkit for reconnaissance, exploitation, and reporting.  
 
-I'm an offensive security researcher and automation builder focused on:
-- 🔍 Large-scale recon and real-world exploitation
-- 📦 Building high-impact tools like `monster.py` to automate Shodan-based exploitation (Redis, MongoDB, Elasticsearch, DICOM, ICS, FTP, etc.)
-- 🧠 Extracting high-value loot: PII, PHI, credentials, misconfigurations, and CVSS-worthy vulnerabilities
-- 📫 Reporting responsibly (CISA, Microsoft MSRC, medical vendors, financial orgs)
-- 💣 Preparing for **OSCP** and **CRTO** certifications
+## Focus Areas
+- ICS/SCADA and Medical Imaging Security (PACS/DICOM)
+- Exploit development and proof-of-concept design
+- Bug bounty reconnaissance and web/cloud security
+- CVSS scoring and professional security reporting
+- Tooling and automation in Python
 
----
+## Highlights
+- Multiple vulnerability submissions coordinated through CISA/VINCE
+- Creator of Arcana Framework (private, enterprise-grade offensive toolkit)
+- Author of the Arcana Red Team Playbook (operator methodology)
+- Independent research across databases, web applications, and cloud platforms
 
-## 🛠️ Featured Tools
-
-### `monster.py` - Offensive Framework
-> Automates everything from scanning → exploitation → loot parsing → severity scoring.
-
-- Redis unauth access, RCE injection (Windows & Linux)
-- MongoDB schema + eval + juicy field parsing
-- Elasticsearch index dump + ML-based loot scoring
-- PACS DICOM patient metadata extraction
-- ICS telemetry (fuel, modbus, medical)
-- Full automation: Shodan → Extraction → Filtered Loot
-
-🔐 Full source available for vetted reviewers or red team orgs.  
-📩 Contact: `Zezima_Linux@protonmail.com`
-
----
-
-## ✍️ Writeups
-
-I specialize in real-world exploit reports with PoCs and CVSS scoring:
-
-- [Redis RCE via Windows Startup File Injection](https://github.com/yourrepo/writeups/redis_rce.md)
-- [Exposed DICOM PACS Medical System](https://github.com/yourrepo/writeups/dicom_leak.md)
-- [ICS Aviation Jet Fuel System Exposure](https://github.com/yourrepo/writeups/ics_fuel_leak.md)
-
----
-
-## 🎯 Goals
-- Join Synack Red Team (SRT)
-- Earn OSCP & CRTO
-- Continue building exploit automation tools that **do all the heavy lifting**
-- Expose critical misconfigs before the bad guys do
-
----
-
-> **If you're a company, platform, or security team looking to collaborate or review tools — reach out.**
-> **If you're another hacker: let's build or share ideas.**
-
-📧 `Zezima_Linux@protonmail.com`
+## Pinned Repositories
+- [silentiumlabs-cheatsheets](https://github.com/silentiumlabs/silentiumlabs-cheatsheets)
+- [arcana-modules-public](https://github.com/silentiumlabs/arcana-modules-public)
+- [silentiumlabs-research](https://github.com/silentiumlabs/silentiumlabs-research)
